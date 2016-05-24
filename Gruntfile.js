@@ -34,7 +34,6 @@ module.exports = function(grunt) {
       "templates/**/*.{js,html,css,png,jpg,gif,woff,woff2,ttf,svg,eot,json}",
       "*.html",
       ],
-      
       runtimeCaching: [{
         // See https://github.com/GoogleChrome/sw-toolbox#methods
         urlPattern: /ionicons/,
@@ -46,8 +45,7 @@ module.exports = function(grunt) {
             name: "runtime-cache-1"
           }
         }
-      }],
-
+      }],      
       // If handleFetch is false (i.e. because this is called from swPrecache:dev), then
       // the service worker will precache resources but won't actually serve them.
       // This allows you to test precaching behavior without worry about the cache preventing your
