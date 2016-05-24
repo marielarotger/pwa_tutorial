@@ -11,12 +11,14 @@ module.exports = function(grunt) {
       // Esta opción genera un SW que no cachea, es para usar si estamos modificando los archivos de la app durante desarrollo
       dev: {
         handleFetch: false,
-        rootDir: 'js'
+        //rootDir: 'js'
+        rootDir: '.'
       },
       // Esta opción es la normal, genera un SW que implementa el cache
       dist: {
         handleFetch: true,
-        rootDir: 'js'
+        // rootDir: 'js'
+        rootDir: '.'
       }
     }
   });
