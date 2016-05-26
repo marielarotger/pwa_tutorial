@@ -28,6 +28,8 @@
     }
   ],
   "permissions": [
-    "gcm"
+    "gcm",
+    "storage",
+    "notifications"
   ]
 }

@@ -32,7 +32,5 @@
     "platform": "web",
     "url":"https://marielarotger.github.io/pwa_tutorial/index.html"
   }],
-  "permissions": [
-  "gcm"
-  ]
+  "permissions": ["gcm", "storage", "notifications"]
 }
