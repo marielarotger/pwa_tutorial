@@ -18,10 +18,10 @@
       "sizes": "512x512",
       "type": "image/png"
     }    ],
-  //"scope": "/",
-  //"start_url": "/index.html",
-  "scope": "/pwa_tutorial/",
-  "start_url": "/pwa_tutorial/index.html",
+  "scope": "/",
+  "start_url": "/index.html",
+  //"scope": "/pwa_tutorial/",
+  //"start_url": "/pwa_tutorial/index.html",
   // standalone muestra la barra de estado pero no el chrome del browser
   "display": "standalone",
   "orientation": "portrait",
