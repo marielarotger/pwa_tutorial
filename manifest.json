@@ -15,8 +15,8 @@
       "type": "image/png"
     }
   ],
-  "scope": "/",
-  "start_url": "/index.html",
+  "scope": "/pwa_tutorial/",
+  "start_url": "/pwa_tutorial/index.html",
   "display": "standalone",
   "orientation": "portrait",
   "theme_color": "aliceblue",
