@@ -22,6 +22,7 @@
   //"start_url": "/index.html",
   "scope": "/pwa_tutorial/",
   "start_url": "/pwa_tutorial/index.html",
+
   // standalone muestra la barra de estado pero no el chrome del browser
   "display": "standalone",
   "orientation": "portrait",
@@ -30,5 +31,8 @@
   "related_applications": [{
     "platform": "web",
     "url":"https://marielarotger.github.io/pwa_tutorial/index.html"
-  }]
+  }],
+  "permissions": [
+  "gcm"
+  ]
 }
