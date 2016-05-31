@@ -5,7 +5,10 @@
   "short_name" : "PWA App",
   // Es el id del proyecto de Google Cloud Platform que usamos para enviar WebPush.
   // Podemos dejar este que es uno que creé para estas apps del tutorial.
-  "gcm_sender_id": "330245272554",
+  //Ramiro --> Clave AIzaSyAmYmR5_n1gAEc8Pbo_5XYLN1HZOiHWqVo
+  "gcm_sender_id": "272789329667",
+  //Mariela --> Clave AIzaSyB7N2bjW_YwdWPuBUVIxbbrNFY8WBUZAR0
+  //"gcm_sender_id": "330245272554",
   // Para mostrar el "cartelito instalador" ( App banner ), chrome nos pide:
   // PNG format of at least 144x144px is required, and the sizes attribute must be set`
   "icons" : [{
